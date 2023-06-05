@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CALCULATOR </title>
+        <link rel="stylesheet" href="sec.css">
+        <script src="third.js" defer></script>
+
+
+    </head>
+    <body>
+        <div class="main">
+        <div class="calculac">
+        
+         <input type="text" id="result" readonly class="result-input"> <br>
+        
+         <input type="button" value="1" onclick="appendValue('1'); toggleButtonColor(this);" class="btnn">  
+        <input type="button" value="2" onclick="appendValue('2'); toggleButtonColor(this);" class="btnn">  
+        <input type="button" value="3" onclick="appendValue('3'); toggleButtonColor(this);" class="btnn">  
+        <input type="button" value="+" onclick="appendValue('+'); toggleButtonColor(this);" class="btnn">  <br>
+        <input type="button" value="4" onclick="appendValue('4'); toggleButtonColor(this);" class="btnn">   
+        <input type="button" value="5" onclick="appendValue('5'); toggleButtonColor(this);" class="btnn">
+        <input type="button" value="6" onclick="appendValue('6'); toggleButtonColor(this);" class="btnn">
+        <input type="button" value="-" onclick="appendValue('-'); toggleButtonColor(this);" class="btnn">  <br>
+        <input type="button" value="7" onclick="appendValue('7'); toggleButtonColor(this);" class="btnn">
+        <input type="button" value="8" onclick="appendValue('8'); toggleButtonColor(this);" class="btnn">
+        <input type="button" value="9" onclick="appendValue('9'); toggleButtonColor(this);" class="btnn">
+        <input type="button" value="*" onclick="appendValue('*'); toggleButtonColor(this);" class="btnn">  <br>
+        <input type="button" value="C" onclick="clearResult(); toggleButtonColor(this);" class="btnn">
+        <input type="button" value="0" onclick="appendValue('0'); toggleButtonColor(this);" class="btnn">
+        <input type="button" value="=" onclick="calculate(); toggleButtonColor(this);" class="btnn">
+        <input type="button" value="/" onclick="appendValue('/'); toggleButtonColor(this);" class="btnn">
+    </div>
+</div>
+    <div class="tit">
+        <h1> LET'S CALCULATE !!!</h1>
+    </div>
+
+    </body>
+
+</html>

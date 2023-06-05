@@ -1,0 +1,55 @@
+.calculac {
+    width: 300px;
+    padding: 70px;
+    background-color: #342259;
+    border: 1px solid #120e0e;
+    position: absolute;
+    top: 12%;
+    left: 9%;
+    position: absolute;
+}
+
+.result-input {
+    width: 252px;
+    height: 66px;
+    margin: 7px;
+    font-size: 30px;
+    background-color: grey;
+  }
+
+  .btnn{
+    width: 55px;
+    height: 55px;
+    font-size: 20px;
+    margin: 5px;
+    background-color: dimgray;
+    
+  }
+
+  .tit{
+    position: absolute;
+    right: 60%;
+    top: 20%;
+    color: rgb(175, 113, 233);
+    }
+.main{
+    position: absolute;
+    width: 90vw;
+    height: 160vh;
+    left:55vw;
+    top:0vh;
+    background-color: rgb(135, 122, 152);
+}
+ h1{
+    font-size: 55px;
+    font-weight: bolder;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(7, 4, 4, 0.923);
+ }
+  body{
+    background-image: url("https://previews.123rf.com/images/9george/9george1707/9george170700438/82113680-math-linear-mathematics-education-circle-background-with-geometrical-plots-seamless-background.jpg");
+  
+  }
+
+
+  
